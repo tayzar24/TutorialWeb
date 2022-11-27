@@ -1,0 +1,50 @@
+﻿@model Memo.Models.StudentList
+@{
+	ViewBag.Title = "Home Page";
+}
+<div class="row">
+	<div class="col-md-12">
+		<div class="card">
+			<div class="card-header">
+				Memo
+				<span class="pull-right">
+					<button  id="addBtn" class="btn btn-sm btn-primary" data-toggle="ajax-modal" data-target="exampleModal">
+					<i class="fa fa-plus"></i> &nbsp;ADD
+					</button>
+				</span>
+			</div>
+			<div class="card-body">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>
+								Name
+							</th>
+							<th>
+								NRC
+							</th>
+							<th>
+								Phone
+							</th>
+							<th>
+								Address
+							</th>
+							<th>
+								City
+							</th>
+							<th>
+								
+							</th>
+						</tr>
+					</thead>
+					<tbody class="tbody">
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="~/Scripts/Memo/Index.js"></script>
